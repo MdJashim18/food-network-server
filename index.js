@@ -25,6 +25,25 @@ async function run() {
 
         const db = client.db("Food-Network");
         const foodCollections = db.collection("foods");
+        const reviewCollections = db.collection("review")
+        const usersCollection = db.collection("users")
+
+
+         app.post('/users', async (req, res) => {
+            const newUser = req.body
+
+            const email = req.body.email
+            const query = { email: email }
+            const existingUser = await usersCollection.findOne(query)
+            if (existingUser) {
+                res.send('User Already Exist')
+            }
+            else {
+                const result = await usersCollection.insertOne(newUser)
+                res.send(result)
+            }
+
+        })
 
         console.log(" Connected to MongoDB successfully!");
 
@@ -74,6 +93,45 @@ async function run() {
             const id = req.params.id
             const query = {_id:new ObjectId(id)}
             const result = await foodCollections.findOne(query)
+            res.send(result)
+        })
+
+
+        app.post('/review',async(req,res)=>{
+            const newReview = req.body
+            const result = await reviewCollections.insertOne(newReview)
+            res.send(result) 
+        })
+        app.delete('/review/:id', async (req, res) => {
+            const id = req.params.id
+            const query = { _id: new ObjectId(id) }
+            const result = await reviewCollections.deleteOne(query)
+            res.send(result)
+        });
+        app.patch('/review/:id', async (req, res) => {
+            const id = req.params.id
+            const updateFood = req.body
+            const query = { _id: new ObjectId(id) }
+
+            const update = {
+                $set: {
+                    star_rating: updateFood.star_rating,
+                    review_text: updateFood.review_text,
+                }
+            }
+            const options = {}
+            const result = await reviewCollections.updateOne(query, update, options)
+            res.send(result)
+        });
+        app.get('/review',async(req,res)=>{
+            const cursor = reviewCollections.find()
+            const result = await cursor.toArray()
+            res.send(result)
+        });
+        app.get('/review/:id',async(req,res)=>{
+            const id = req.params.id
+            const query = {_id:new ObjectId(id)}
+            const result = await reviewCollections.findOne(query)
             res.send(result)
         })
 
