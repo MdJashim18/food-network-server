@@ -140,6 +140,15 @@ async function run() {
             const result = await reviewCollections.findOne(query)
             res.send(result)
         })
+        app.get('/reviews', async (req, res) => {
+            const search = req.query.search || ''; 
+            const query = search
+                ? { food_name: { $regex: search, $options: 'i' } } 
+                : {};
+
+            const result = await reviewCollections.find(query).toArray();
+            res.send(result);
+        });
 
 
 
