@@ -8,7 +8,7 @@ const port = process.env.PORT || 3000;
 app.use(cors());
 app.use(express.json());
 
-// MongoDB URI
+
 const uri = "mongodb+srv://Food-Network:m2EPYv3cTBhSQsZu@mongo-simple-crud.tzwys72.mongodb.net/?retryWrites=true&w=majority";
 
 const client = new MongoClient(uri, {
@@ -48,7 +48,7 @@ async function run() {
 
         console.log(" Connected to MongoDB successfully!");
 
-        // Default route
+        
         app.get('/', (req, res) => {
             res.send('🍽️ Local Food Lovers Network is running!');
         });
