@@ -128,12 +128,7 @@ async function run() {
             const result = await cursor.toArray()
             res.send(result)
         });
-        app.get('/reviews', async (req, res) => {
-            const email = req.query.email;
-            const query = email ? { email: email } : {};
-            const result = await reviewCollections.find(query).toArray();
-            res.send(result);
-        });
+        
         app.get('/review/:id', async (req, res) => {
             const id = req.params.id
             const query = { _id: new ObjectId(id) }
@@ -141,14 +136,25 @@ async function run() {
             res.send(result)
         })
         app.get('/reviews', async (req, res) => {
-            const search = req.query.search || ''; 
-            const query = search
-                ? { food_name: { $regex: search, $options: 'i' } } 
-                : {};
+            const { email, search } = req.query;
+
+            let query = {};
+
+            if (email) {
+                query.email = email;
+            }
+
+            if (search) {
+                query.food_name = { $regex: search, $options: 'i' };
+            }
+
+            console.log("Search query:", query);
 
             const result = await reviewCollections.find(query).toArray();
             res.send(result);
         });
+
+
 
 
 
