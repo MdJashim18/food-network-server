@@ -10,7 +10,8 @@
       "price": 380,
       "description": "At Hot Grill, our Crispy Chicken Wings are a masterpiece of texture and flavor, designed for the true connoisseur of appetizers. We start by selecting only the plumpest, juiciest chicken wings, which are then marinated for hours in a secret blend of herbs and spices to ensure the flavor penetrates deep into the meat. They are double-fried to perfection, a technique that first cooks the meat through gently and then, at a higher temperature, creates an unbelievably crispy, shatteringly golden-brown exterior that audibly cracks with the first bite. The final, crucial step is tossing these perfectly fried wings in your choice of sauce; our signature spicy glaze is a crowd favorite, offering a harmonious balance of heat, sweetness, and tang that coats every inch without making the skin soggy. Served with a cooling side of creamy blue cheese or ranch dip and crisp celery sticks, this dish is the ultimate shareable starter, perfect for kicking off a festive meal or enjoying as a main event with friends. Each wing is a journey from a crispy outer layer to the tender, succulent, and flawlessly seasoned meat inside, making it an unforgettable experience.",
       "available": true,
-      "preparation_time": "15 minutes"
+      "preparation_time": "15 minutes",
+      "category": "Appetizer"
     },
     {
       "photo": "https://i.ibb.co.com/sJ5gXBmf/garlic-butter-shrimp-1.jpg",
@@ -22,7 +23,8 @@
       "price": 600,
       "description": "Seafood Paradise, located in the heart of Cox's Bazar, brings you the essence of the sea with our sublime Garlic Butter Shrimp. We source the freshest, largest shrimp daily, ensuring a firm, sweet, and succulent bite in every piece. These pristine shrimp are sautéed in a sizzling pan with a generous amount of rich, melted butter, allowing the flavors to meld beautifully. We then add a lavish amount of freshly minced garlic, which is gently toasted until fragrant but not burnt, releasing its pungent, aromatic sweetness into the butter. A splash of fresh lemon juice is added at the perfect moment, cutting through the richness and brightening the entire dish, while a sprinkle of finely chopped parsley provides a fresh, herbal finish. The resulting dish is a symphony of simple, high-quality ingredients where the natural sweetness of the shrimp is the star, elegantly complemented by the nutty butter, robust garlic, and zesty lemon. Served sizzling hot in its own pan with crusty bread on the side to soak up every last drop of the incredible garlic-butter sauce, this appetizer is not just a dish; it's a luxurious, sensorial experience that transports you straight to the coastline.",
       "available": true,
-      "preparation_time": "12 minutes"
+      "preparation_time": "12 minutes",
+      "category": "Appetizer"
     },
     {
       "photo": "https://i.ibb.co.com/svfrqLXD/Vegetable-Spring-Rolls-tall-FS.jpg",
@@ -34,7 +36,8 @@
       "price": 250,
       "description": "Asian Spice presents our Vegetable Spring Rolls, a testament to the art of creating perfect crunch and fresh flavor. Each roll is a delicate parcel handmade with thin, translucent rice paper wrappers that fry up into an incredibly light and blistered, golden-brown shell. The filling is a vibrant and nutritious mixture of finely shredded fresh vegetables, which may include crunchy cabbage, sweet carrots, crisp bean sprouts, and earthy mushrooms, all seasoned with a subtle hint of soy sauce, ginger, and garlic. We take care to ensure the filling is not overly wet, guaranteeing that every spring roll maintains its structural integrity and delivers a satisfying, audible crunch with each bite. These vegetarian delights are served piping hot alongside a small bowl of our house-made sweet chili sauce, a perfectly balanced dip that offers a gentle sweetness and a mild, building heat that enhances the fresh vegetables without overpowering them. An ideal starter for any meal, these spring rolls are a celebration of texture and a healthier fried option that doesn't compromise on taste or satisfaction, making them a favorite for both vegetarians and meat-eaters alike.",
       "available": true,
-      "preparation_time": "10 minutes"
+      "preparation_time": "10 minutes",
+       "category": "Appetizer"
     },
     {
       "photo": "https://i.ibb.co.com/Pvyn2Gcw/Chicken-and-Sweet-Corn-Soup-Recipe-2.jpg",
@@ -46,7 +49,8 @@
       "price": 200,
       "description": "Soup & Spoon offers a bowl of pure comfort with our classic Chicken Corn Soup, a beloved staple that soothes the soul and warms the body. We begin by simmering a clear, flavorful broth from chicken bones for hours, extracting a deep, savory base that forms the foundation of the soup. Into this golden broth, we add tender, shredded pieces of free-range chicken breast and sweet, juicy corn kernels, creating a delightful contrast in textures. The soup is then delicately thickened with a light cornstarch slurry to a velvety, smooth consistency that coats the spoon perfectly. A finishing touch of beaten egg is drizzled in, creating beautiful, silky ribbons that float throughout the soup. Seasoned simply with white pepper, a touch of soy, and finely sliced spring onions for a fresh bite, every spoonful is a harmonious blend of savory, sweet, and comforting flavors. This soup is not just a starter; it's a remedy, a light meal, and a nostalgic favorite, perfect for a quiet evening, a light lunch, or as a comforting beginning to a larger family dinner.",
       "available": true,
-      "preparation_time": "8 minutes"
+      "preparation_time": "8 minutes",
+       "category": "Soup"
     },
     {
       "photo": "https://i.ibb.co.com/tpq7PjQP/Cheeseball24-1.jpg",
@@ -58,7 +62,8 @@
       "price": 180,
       "description": "Snack Corner's Cheese Balls are the epitome of indulgent, cheesy goodness, a simple yet irresistibly satisfying snack that appeals to all ages. We craft these golden spheres using a high-quality, blend of mozzarella and cheddar cheese, ensuring a perfect balance of superior meltability and sharp, tangy flavor. The cheese is mixed into a light, seasoned dough, then shaped into perfect bite-sized balls before being coated in a crisp, golden breadcrumb layer. When they meet the hot oil, the magic happens: the exterior fries to a crunchy, shattering crust while the interior transforms into a molten, stretchy, and incredibly gooey river of melted cheese that creates the perfect 'cheese pull' with every bite. Served scalding hot straight from the fryer, these cheese balls are a textural dream, offering a fantastic contrast between the crispy outside and the soft, liquid cheese inside. Accompanied by a tangy marinara or a creamy ranch dip, they are the ultimate comfort food, perfect for sharing with friends over conversation, as a fun side dish, or as a treat that never fails to bring a smile to your face.",
       "available": true,
-      "preparation_time": "7 minutes"
+      "preparation_time": "7 minutes",
+      "category": "Appetizer"
     },
     {
       "photo": "https://i.ibb.co.com/3mxN1rwP/French-Fries.jpg",
@@ -70,7 +75,8 @@
       "price": 150,
       "description": "Fast Bite elevates the humble French Fry to an art form, proving that perfection lies in simplicity and technique. We begin by selecting only the finest, high-starch potatoes, which are ideal for achieving a fluffy interior. Each potato is meticulously hand-cut into uniform batons to ensure consistent cooking. Our two-stage frying process is the secret to their iconic texture: a first fry at a lower temperature gently cooks the potato through, creating a soft, pillowy center. After a brief rest, they are fried a second time at a blazing high heat, which creates an irresistibly crispy, golden-brown exterior that is remarkably non-greasy. The result is a fry with a satisfying crunch that gives way to a light, hot, and fluffy inside. Generously seasoned with just the right amount of sea salt immediately after frying, these fries are a masterpiece of contrast. Served piping hot with a side of our rich, tangy tomato ketchup, they are the quintessential snack, the perfect side to any burger, or a satisfying treat all on their own. It's a timeless classic, executed flawlessly.",
       "available": true,
-      "preparation_time": "5 minutes"
+      "preparation_time": "5 minutes",
+      "category": "Appetizer"
     },
     {
       "photo": "https://i.ibb.co.com/4wGpYWnT/chicken-lollipop.jpg",
@@ -82,7 +88,8 @@
       "price": 300,
       "description": "Spice Garden's Chicken Lollipop is a fun, flavorful, and visually striking appetizer that is as enjoyable to eat as it is to look at. This dish is crafted from the meatiest part of the chicken wing, the drumette, which is expertly frenched—a technique where the meat is pushed down to one end of the bone, creating a convenient 'handle' and a lollipop appearance. These lollipops are first marinated in a vibrant paste of yogurt, ginger, garlic, and a proprietary blend of spices that includes red chili, cumin, and coriander, tenderizing the meat and infusing it with deep, aromatic flavors. They are then deep-fried until the exterior is incredibly crispy and caramelized, while the meat inside remains exceptionally juicy and tender. The final glaze, a sticky, sweet, and tangy sauce with a hint of heat, is brushed on generously, coating each lollipop in a glossy, flavorful sheen. Served standing upright with the bone as a handle, they are accompanied by a spicy schezwan or a cool mint chutney, making them the perfect finger food for parties, a exciting start to a meal, or a standout item on any festive platter.",
       "available": true,
-      "preparation_time": "10 minutes"
+      "preparation_time": "10 minutes",
+      "category": "Appetizer"
     },
     {
       "photo": "https://i.ibb.co.com/jZxt7shC/Paneer-Tikka-5-1.jpg",
@@ -94,7 +101,8 @@
       "price": 350,
       "description": "Royal Indian invites you to savor the quintessential vegetarian delicacy of North India with our exquisite Paneer Tikka. We use only the finest, homemade paneer (Indian cottage cheese), which is prized for its firm yet soft texture and its incredible ability to absorb marinades. Cubes of this paneer are combined with colorful chunks of bell peppers, onions, and tomatoes, then skewered together. The magic lies in the marinade: a thick, luscious paste of hung yogurt, cream, and a melange of traditional spices including kasuri methi (dried fenugreek leaves), garam masala, turmeric, and a touch of charcoal smoke for that authentic tandoori aroma. The skewers are then cooked in a blazing hot tandoor (clay oven), which chars the edges slightly, giving a smoky flavor while keeping the paneer incredibly moist and creamy on the inside. The result is a dish that is a riot of colors and textures—smoky, creamy, and slightly charred, with a burst of freshness from the vegetables. Served with a side of mint-coriander chutney and sliced onions, it's a vegetarian appetizer that is robust, satisfying, and utterly delicious.",
       "available": true,
-      "preparation_time": "15 minutes"
+      "preparation_time": "15 minutes",
+      "category": "Appetizer"
     },
     {
       "photo": "https://i.ibb.co.com/VpHYf7bP/3296611-d1799f167c4945e5a9133be468cbd123.jpg",
@@ -106,7 +114,8 @@
       "price": 420,
       "description": "Star Kabab takes immense pride in our Chicken Biryani, a regal dish that is the heart and soul of Mughlai cuisine. We follow a traditional 'Dum Pukht' method, a slow-cooking process where the biryani is sealed in a handi (a heavy-bottomed pot) with dough, allowing the aromatic steam to cook the ingredients in their own juices. We begin by marinating succulent pieces of chicken in a blend of yogurt and spices for several hours. The foundation is the long-grained, aged Basmati rice, known for its captivating aroma and fluffy texture when cooked. The biryani is layered with precision: a layer of fragrant rice, a layer of marinated chicken and golden, thinly sliced onions, a drizzle of saffron-infused milk and ghee, and then another layer of rice. As it cooks on a low flame for hours, the flavors from the meat, the spices, and the rice intermingle to create a symphony of taste. Each grain of rice remains separate, imbued with the color and fragrance of saffron and the deep, savory notes of the spiced chicken. Served with a simple boiled egg and a side of borhani (a spicy yogurt drink), this biryani is not just a meal; it's a celebratory experience.",
       "available": true,
-      "preparation_time": "25 minutes"
+      "preparation_time": "25 minutes",
+      "category": "Main Course"
     },
     {
       "photo": "https://i.ibb.co.com/SDwVLNcd/Beef-Tehari-Cookish-Creation.jpg",
@@ -118,7 +127,8 @@
       "price": 380,
       "description": "Bangla Dine celebrates the rich, rustic flavors of Old Dhaka with our authentic Beef Tehari, a one-pot rice dish that is a cornerstone of Bangladeshi culinary heritage. Unlike biryani, Tehari is known for its distinctive yellow-orange hue and its more robust, straightforward spicing. We use tender chunks of beef, which are slow-cooked with a special blend of Tehari masala, including whole spices like cardamom, cinnamon, and clove, until the meat is fall-apart tender and the gravy is rich and concentrated. This flavorful gravy is then used to cook the premium, short-grain rice, which absorbs all the savory essence of the beef and spices, resulting in a beautifully colored and intensely aromatic dish. The rice is grainy yet moist, with each bite containing the deep, savory taste of the beef and the warm fragrance of the spices. We garnish it with fried onions, raisins, and a hard-boiled egg, adding layers of sweetness and texture. Our Beef Tehari is a hearty, comforting, and deeply satisfying meal that embodies the soul of Bangladeshi home-style cooking, perfect for a fulfilling lunch or dinner.",
       "available": true,
-      "preparation_time": "22 minutes"
+      "preparation_time": "22 minutes",
+      "category": "Main Course"
     },
     {
       "photo": "https://i.ibb.co.com/tpYmdrsH/download.jpg",
@@ -130,7 +140,8 @@
       "price": 400,
       "description": "Food Lovers Cafe offers a healthy and protein-packed delight with our Grilled Chicken with Rice, a dish that proves healthy eating can be incredibly flavorful. We start with a skinless, boneless chicken breast that is meticulously trimmed and then bathed in a marinade of lemon juice, olive oil, garlic, and a selection of herbs like rosemary and thyme. This not only infuses the chicken with a bright, Mediterranean flavor but also tenderizes it perfectly. The chicken is then grilled over an open flame, achieving those coveted, beautiful char marks that impart a smoky essence while locking in all the natural juices. The result is a chicken breast that is remarkably moist and flaky on the inside with a slightly crisp, herbaceous crust. It is served atop a bed of perfectly steamed, long-grain white rice that acts as a neutral canvas for the chicken's flavors. The dish is completed with a side of freshly steamed or grilled seasonal vegetables, such as broccoli, carrots, and zucchini, adding color, nutrition, and a delightful crunch. It's a balanced, wholesome, and utterly satisfying meal for the health-conscious diner who doesn't want to compromise on taste.",
       "available": true,
-      "preparation_time": "18 minutes"
+      "preparation_time": "18 minutes",
+      "category": "Main Course"
     },
     {
       "photo": "https://i.ibb.co.com/B2j7XVZR/Butter-Naan-Chicken-Curry.jpg",
@@ -142,7 +153,8 @@
       "price": 500,
       "description": "Royal Indian presents the ultimate North Indian comfort food combination: Butter Naan and Chicken Curry. Our Butter Naan is a thing of beauty—a soft, leavened flatbread made from refined flour and yogurt, which is then hand-stretched and baked in a traditional tandoor until it puffs up and develops a beautiful, blistered, and slightly charred exterior. As soon as it comes out of the fiery oven, it is lavishly brushed with melted butter, making it incredibly soft, rich, and aromatic. This perfect bread is the ideal companion for our rich and creamy Chicken Curry. The curry is a labor of love, starting with a base of finely ground onions, tomatoes, ginger, and garlic that is slow-cooked until it reaches a deep, brick-red color and a silky-smooth texture. Tender pieces of chicken are simmered in this gravy along with a balanced blend of spices, cream, and a touch of butter, resulting in a curry that is luxuriously creamy, mildly spiced, and bursting with layers of flavor. Tearing a piece of the soft, buttery naan and dipping it into the rich, savory curry is a culinary experience that is both comforting and deeply indulgent.",
       "available": true,
-      "preparation_time": "20 minutes"
+      "preparation_time": "20 minutes",
+      "category": "Main Course"
     },
     {
       "photo": "https://i.ibb.co.com/cXCyyLm4/BBQ-Platter-Chicken-Beef-Lamb.jpg",
@@ -154,7 +166,8 @@
       "price": 750,
       "description": "Grill Master's BBQ Platter is the ultimate feast for meat lovers, a grand presentation of smoky, grilled perfection. This generous platter is designed for sharing and features a spectacular array of skewered and grilled meats, including juicy chicken tikka, flavorful beef boti, and succulent seekh kebab made from minced lamb. Each type of meat is marinated in its own unique blend of spices and yogurt for hours, ensuring maximum tenderness and flavor penetration. The platter is then cooked over glowing charcoal, which imparts a distinctive, smoky aroma and beautiful grill marks that enhance the natural flavors of the meat. The chicken remains moist and charred, the beef is robust and slightly chewy, and the lamb seekh kebab is finely spiced and incredibly juicy. Arranged dramatically on a sizzling hot plate or a wooden board, the platter is garnished with fresh lemon wedges, raw onions, and a sprinkle of chaat masala. Served with a side of mint chutney and grilled tomatoes and onions, this platter is the centerpiece of a festive meal, perfect for a family gathering, a celebration, or for anyone who wants to experience the best of grilled cuisine in one magnificent dish.",
       "available": true,
-      "preparation_time": "25 minutes"
+      "preparation_time": "25 minutes",
+      "category": "Main Course"
     },
     {
       "photo": "https://i.ibb.co.com/hFDK09y8/Fish-Curry-with-Steamed-Rice.jpg",
@@ -166,7 +179,8 @@
       "price": 350,
       "description": "Bengal Delight brings the authentic taste of a Bengali home to your table with our classic Fish Curry with Steamed Rice. This is a humble yet profound dish that relies on the freshness of its ingredients. We use a firm, white-fleshed fish like Rui (Rohu) or Katla, which holds its shape well in the gravy. The fish is lightly fried first to give it a firm exterior, then simmered in a tangy and spicy gravy that is the soul of Bengali cooking. The gravy is a simple yet masterful combination of turmeric, red chili powder, and mustard paste, which gives it a characteristic pungent and sharp flavor, balanced by the sourness of raw green mango or tomatoes. The use of mustard oil as the cooking medium adds another layer of sharp, pungent aroma that is quintessentially Bengali. Served with a generous portion of plain, steamed rice, this dish is a perfect harmony of flavors—the mild, sweet flesh of the fish contrasts beautifully with the sharp, spicy, and tangy gravy. It's a comforting, everyday meal that evokes a sense of home and tradition, best enjoyed by mixing the rice and curry together with your fingers to experience every nuance of flavor.",
       "available": true,
-      "preparation_time": "20 minutes"
+      "preparation_time": "20 minutes",
+      "category": "Main Course"
     },
     {
       "photo": "https://i.ibb.co.com/1fYRm1pc/images.jpg",
@@ -178,7 +192,8 @@
       "price": 280,
       "description": "Asian Spice's Vegetable Fried Rice is a vibrant, quick, and satisfying meal that showcases the delicate balance of Chinese wok cooking. The key to our perfect fried rice is using day-old, cooked rice that has been thoroughly chilled, which ensures the grains are firm and separate, not mushy. This rice is then tossed in a blazing hot wok with a splash of sesame oil, along with a colorful medley of fresh, finely chopped vegetables. We typically use a combination of crunchy carrots, sweet peas, crisp bell peppers, spring onions, and sweet corn. The vegetables are stir-fried quickly to retain their color and crunch. The seasoning is simple yet transformative: light soy sauce for saltiness and umami, a dash of white pepper for a gentle heat, and a pinch of sugar to balance the flavors. Some beaten egg is scrambled in the wok, creating soft, fluffy ribbons that are mixed throughout the rice. The final dish is a light, non-greasy, and aromatic fried rice where every grain is distinct and coated in a subtle savory flavor, and the vegetables provide a delightful burst of freshness and texture in every bite. It's a complete vegetarian meal on its own or the perfect side for any Asian main course.",
       "available": true,
-      "preparation_time": "12 minutes"
+      "preparation_time": "12 minutes",
+      "category": "Main Course"
     },
     {
       "photo": "https://i.ibb.co.com/s9rJcPp5/Spaghetti-Carbonara.jpg",
@@ -190,7 +205,8 @@
       "price": 450,
       "description": "Pasta House offers a taste of Roman tradition with our authentic Spaghetti Carbonara, a deceptively simple dish that requires precise technique to master. We use high-quality, durum wheat spaghetti, cooked al dente to retain a pleasant bite. The sauce is what makes Carbonara legendary—it contains no cream. Instead, we create a luxuriously creamy emulsion from raw eggs, a generous amount of finely grated Pecorino Romano cheese (which provides a sharp, salty tang), and freshly cracked black pepper. The heat from the freshly cooked pasta, along with the rendered fat from crispy guanciale (cured pork jowl) or pancetta, gently cooks the egg and cheese mixture, transforming it into a smooth, velvety sauce that clings to every strand of pasta without becoming scrambled. The result is a pasta dish that is rich, savory, and deeply satisfying. The crispy, salty bits of guanciale provide a wonderful textural contrast to the creamy sauce, while the black pepper adds a necessary sharpness and warmth. Served immediately in a warmed bowl with an extra sprinkle of cheese and pepper, this Carbonara is a testament to the beauty of Italian cuisine where a few quality ingredients, treated with respect, create a masterpiece.",
       "available": true,
-      "preparation_time": "18 minutes"
+      "preparation_time": "18 minutes",
+      "category": "Pasta"
     },
     {
       "photo": "https://i.ibb.co.com/B2sZ9Z3T/Chicken-Alfredo-Pasta.jpg",
@@ -202,7 +218,8 @@
       "price": 480,
       "description": "Food Lovers Cafe presents our indulgent Chicken Alfredo Pasta, a rich and creamy American-Italian classic that is the ultimate comfort food. We start with fettuccine pasta, its broad, flat surface perfect for holding onto the luxurious sauce. The chicken is prepared by pan-searing seasoned, tender strips of breast until they are golden brown on the outside and perfectly juicy inside. The star of the dish is the Alfredo sauce, made from scratch in our kitchen. We slowly melt high-quality butter, into which we add fresh heavy cream, allowing it to reduce and thicken slightly. A generous amount of freshly grated Parmesan cheese is then whisked in until it melts into a smooth, velvety, and decadently rich sauce. The sauce is seasoned with a hint of garlic, nutmeg, and white pepper, adding depth without overpowering the cheesy, creamy base. The cooked fettuccine and seared chicken are tossed together in this luscious sauce, ensuring every component is perfectly coated. Garnished with chopped parsley and extra Parmesan, each forkful offers a combination of tender pasta, juicy chicken, and the most irresistibly creamy and cheesy sauce imaginable. It's a truly satisfying and decadent treat.",
       "available": true,
-      "preparation_time": "20 minutes"
+      "preparation_time": "20 minutes",
+      "category": "Pasta"
     },
     {
       "photo": "https://i.ibb.co.com/jZb02jF7/Thai-Basil-Chicken.jpg",
@@ -214,7 +231,8 @@
       "price": 420,
       "description": "Thai Taste delivers an explosive burst of Thai street food flavor with our authentic Pad Krapow Gai, or Thai Basil Chicken. This is a stir-fry that is all about bold, aromatic, and balanced flavors. We start with ground chicken, which is quickly cooked in a screaming hot wok with a flavorful sauce made from soy sauce, oyster sauce, fish sauce, and a touch of sugar. The holy trinity of Thai aromatics—finely minced garlic, sliced Thai chilies (for a potent heat), and shallots—are fried until fragrant before the chicken is added, creating an incredible base. The defining ingredient is a generous handful of fresh Holy Basil (Krapow), which is stirred in at the last moment, wilting just slightly and releasing its distinctive, anise-like, and peppery aroma that permeates the entire dish. The result is a savory, slightly sweet, and intensely aromatic minced chicken dish with a kick of heat that is both invigorating and addictive. It is traditionally served over a bed of steamed jasmine rice and crowned with a perfectly fried sunny-side-up egg, whose runny yolk adds a layer of richness that complements the spicy, savory chicken beautifully. It's a quick, powerful, and utterly satisfying meal.",
       "available": true,
-      "preparation_time": "15 minutes"
+      "preparation_time": "15 minutes",
+       "category": "Main Course"
     },
     {
       "photo": "https://i.ibb.co.com/gFSFm5FQ/Classic-Beef-Burger.jpg",
@@ -226,7 +244,8 @@
       "price": 280,
       "description": "Burger Hub's Classic Beef Burger is a timeless tribute to the all-American diner favorite, crafted with care and quality ingredients. We begin with a hand-patted, generously sized beef patty made from a blend of premium chuck and sirloin, ensuring a perfect balance of fat and flavor. The patty is seasoned simply with salt and pepper and grilled to your desired temperature, developing a beautiful, caramelized crust on the outside while remaining incredibly juicy and pink on the inside. It is then placed on a soft, lightly toasted brioche bun that is buttery and slightly sweet. The burger is dressed with a crisp leaf of fresh iceberg lettuce, a slice of ripe, juicy tomato, and finely sliced red onions for a sharp crunch. A layer of tangy dill pickles adds a necessary zing, while a slice of melted American cheese provides a creamy, salty element that brings everything together. The final touch is our secret burger sauce—a creamy, tangy, and slightly sweet condiment that elevates the entire experience. This burger is a symphony of textures and flavors in every bite, a hearty and satisfying classic that never goes out of style.",
       "available": true,
-      "preparation_time": "10 minutes"
+      "preparation_time": "10 minutes",
+      "category": "Burger"
     },
     {
       "photo": "https://i.ibb.co.com/5g9zSX0r/Chicken-Cheese-Burger.jpg",
@@ -238,7 +257,8 @@
       "price": 260,
       "description": "Burger Point's Chicken Cheese Burger is a crispy, juicy, and flavorful alternative to the classic beef burger, perfect for poultry lovers. We take a tender, whole-muscle chicken breast fillet and marinate it in a blend of buttermilk and spices, which tenderizes the meat and infuses it with flavor. The marinated fillet is then coated in a specially seasoned, crispy breading and deep-fried until it achieves a golden-brown, incredibly crunchy exterior that gives way to the moist and succulent chicken inside. This perfectly fried chicken patty is placed on a soft, sesame-seeded bun that has been lightly toasted to add structure. We then crown the patty with a slice of melted, gooey cheddar cheese, which adds a rich, sharp flavor that complements the chicken beautifully. The burger is finished with fresh, shredded lettuce and a generous dollop of creamy mayonnaise or a signature burger sauce, adding coolness and tang to balance the richness of the fried chicken and cheese. It's a wonderfully satisfying burger that delivers a fantastic crunch in every bite, a testament to the delicious possibilities of fried chicken in a handheld meal.",
       "available": true,
-      "preparation_time": "9 minutes"
+      "preparation_time": "9 minutes",
+      "category": "Burger"
     },
     {
       "photo": "https://i.ibb.co.com/5ggKC2BD/Grilled-Veggie-Sandwich.jpg",
@@ -250,7 +270,8 @@
       "price": 220,
       "description": "Snack Corner's Grilled Veggie Sandwich is a celebration of fresh, wholesome ingredients, transformed into a warm, comforting, and utterly delicious vegetarian option. We layer thick slices of artisan bread, such as sourdough or ciabatta, with a vibrant array of grilled vegetables. Our selection often includes meaty portobello mushrooms, sweet bell peppers in red and yellow, tender slices of zucchini, and thinly sliced red onions. These vegetables are brushed with olive oil and herbs, then grilled to perfection, which caramelizes their natural sugars and brings out a deep, smoky sweetness. Inside the sandwich, we spread a layer of creamy, tangy goat cheese or a smooth hummus, which adds richness and helps bind the ingredients together. Fresh spinach or arugula leaves are added for a peppery bite and a burst of green color. The entire sandwich is then pressed and grilled until the exterior bread is crisp and golden brown, and the interior is warm and wonderfully melted together. The result is a sandwich that is hearty and satisfying without being heavy, with a wonderful interplay of textures from the crisp bread, the soft, warm vegetables, and the creamy cheese. It's a perfect light lunch or a healthy dinner option.",
       "available": true,
-      "preparation_time": "8 minutes"
+      "preparation_time": "8 minutes",
+      "category": "Sandwich"
     },
     {
       "photo": "https://i.ibb.co.com/zWLHWZdH/Club-Sandwich.jpg",
@@ -262,7 +283,8 @@
       "price": 280,
       "description": "Café Morning's Club Sandwich is a towering classic, a triple-decker marvel that is both substantial and elegantly satisfying. Built with three layers of lightly toasted white or whole wheat bread, this sandwich is a masterpiece of stacking. The first layer typically features tender, sliced roast chicken or turkey, layered with crispy strips of fried bacon, offering a combination of savory and smoky flavors. The next layer includes fresh, crisp lettuce, ripe tomato slices, and sometimes a slice of creamy avocado for extra richness. Each layer is bound together with a generous spread of high-quality mayonnaise. To secure the towering structure, the sandwich is traditionally held together with cocktail sticks and then sliced diagonally into four quarters, revealing its beautiful, colorful cross-section. Served with a side of golden French fries or a small garden salad, the Club Sandwich is a complete meal in itself. It's a timeless diner and café favorite, perfect for a hearty lunch, a late brunch, or any time you desire a sandwich that is both classic and impressively filling.",
       "available": true,
-      "preparation_time": "10 minutes"
+      "preparation_time": "10 minutes",
+      "category": "Sandwich"
     },
     {
       "photo": "https://i.ibb.co.com/1YTvRCvN/Crispy-Chicken-Wrap.jpg",
@@ -274,7 +296,8 @@
       "price": 240,
       "description": "Fast Bite's Crispy Chicken Wrap is the ultimate on-the-go meal, combining the satisfying crunch of fried chicken with the fresh, portable convenience of a wrap. We start with a large, soft flour tortilla that acts as the perfect vessel. At its heart are strips of our signature crispy chicken, freshly fried to a golden perfection, ensuring they remain crunchy even when wrapped. This warm, crunchy chicken is complemented by a cool and crisp mix of shredded iceberg lettuce and diced tomatoes, which provide a refreshing contrast. The wrap is then dressed with a creamy, flavorful sauce—options like ranch, honey mustard, or a signature spicy mayo—that adds moisture and tang, bringing all the elements together. Sometimes, we add a sprinkle of shredded cheddar or mozzarella cheese for an extra layer of richness. The tortilla is then expertly rolled and folded into a tight, neat package, making it easy to hold and eat without mess. It's a perfectly balanced bite in every mouthful: soft tortilla, crispy chicken, fresh veggies, and creamy sauce. This wrap is a popular choice for a quick lunch, a satisfying snack, or a light dinner that doesn't skimp on flavor or texture.",
       "available": true,
-      "preparation_time": "7 minutes"
+      "preparation_time": "7 minutes",
+       "category": "Wrap"
     },
     {
       "photo": "https://i.ibb.co.com/V0k343SG/Margherita-Pizza.jpg",
@@ -286,7 +309,8 @@
       "price": 500,
       "description": "Bella Italia honors the flag of Italy with our classic Margherita Pizza, a dish where the quality of each ingredient is paramount. We start with our hand-stretched pizza dough, made from Tipo '00' flour and fermented for at least 24 hours to develop a complex flavor and a texture that is both chewy and airy, with a beautifully charred, leopard-spotted crust when baked in our wood-fired oven. The base is a simple, vibrant San Marzano tomato sauce, which is sweet and less acidic, spread thinly to let the dough shine. We then add generous dollops of fresh, creamy fior di latte or mozzarella di bufala, which melt into luscious, stretchy pools of goodness. The pizza is baked at an extremely high temperature for just 60-90 seconds, emerging with a blistered, smoky crust. Immediately after baking, we garnish it with fresh basil leaves, which wilt slightly from the residual heat, releasing their sweet, anise-like aroma, and a final drizzle of extra virgin olive oil. This pizza is a celebration of simplicity: the tangy tomato, the rich, milky cheese, the fragrant basil, and the perfect crust come together in a harmonious and unforgettable way. It is the true test of a pizzeria's skill.",
       "available": true,
-      "preparation_time": "15 minutes"
+      "preparation_time": "15 minutes",
+       "category": "Pizza"
     },
     {
       "photo": "https://i.ibb.co.com/gLbFcHw4/Pepperoni-Pizza.jpg",
@@ -298,7 +322,8 @@
       "price": 550,
       "description": "Pizza Town's Pepperoni Pizza is an American icon, a bold and satisfying pie designed for those who love a hearty, savory slice. Our version starts with a perfectly proofed dough that is stretched to a medium thickness, offering a sturdy yet soft base that can handle the toppings. We slather on a robust, seasoned tomato sauce that provides a tangy foundation. The star of the show is the pepperoni—spicy, thinly sliced, and generously layered across the entire pizza. As it bakes in a hot oven, the pepperoni curls at the edges and releases its spicy, rendered fats, which crisp up the edges and infuse the entire pizza with its signature flavor. We cover it with a blanket of low-moisture, whole-milk mozzarella cheese, which melts into a perfectly stretchy, golden-brown layer. The result is a pizza that is a perfect balance of tangy, spicy, and cheesy in every bite. The crisp, cupped pepperoni, the gooey cheese, and the soft-yet-chewy crust create a textural and flavor experience that is deeply comforting and universally loved. It's the ultimate crowd-pleaser for game nights, parties, or a casual family dinner.",
       "available": true,
-      "preparation_time": "18 minutes"
+      "preparation_time": "18 minutes",
+       "category": "Pizza"
     },
     {
       "photo": "https://i.ibb.co.com/FLK7MjGP/BBQ-Chicken-Pizza.jpg",
@@ -310,7 +335,8 @@
       "price": 560,
       "description": "Pizza Hub's BBQ Chicken Pizza is a triumphant fusion of American barbecue and Italian pizza, creating a uniquely sweet, smoky, and savory flavor profile. Instead of a traditional tomato base, we spread a layer of our house-made barbecue sauce, which is tangy, slightly sweet, and with a hint of smokiness. The pizza is then topped with tender, shredded pieces of grilled chicken that have been tossed in more of the barbecue sauce, ensuring they are packed with flavor. We add a generous amount of red onion slices, which become wonderfully sweet and soft when baked, and sometimes include thin slices of smoky bacon for an extra layer of savoriness. The entire pizza is covered with a blend of mozzarella and smoked gouda cheese, which melts into a creamy, smoky, and incredibly flavorful blanket. After baking, the pizza is often garnished with fresh, chopped cilantro, adding a bright, herbal note that cuts through the richness. The crust is golden and slightly crisp, providing the perfect foundation for the bold toppings. Each slice is a perfect combination of smoky, sweet, tangy, and cheesy flavors, making it a popular choice for those looking to venture beyond classic pizza toppings.",
       "available": true,
-      "preparation_time": "17 minutes"
+      "preparation_time": "17 minutes",
+       "category": "Pizza"
     },
     {
       "photo": "https://i.ibb.co.com/HLQQxW15/Loaded-Veggie-Pizza.jpg",
@@ -322,7 +348,8 @@
       "price": 480,
       "description": "Pizza Mania's Loaded Veggie Pizza is a vibrant, colorful, and garden-fresh feast that proves vegetarian pizzas can be just as exciting and satisfying as their meaty counterparts. We start with a classic tomato sauce base on our hand-tossed crust. Then, we unleash a veritable farmers' market of toppings: sliced, meaty mushrooms, crisp green and red bell peppers, sweet red onions, briny black olives, and juicy pineapple chunks for a touch of sweetness. Sometimes, we add artichoke hearts or spinach for even more variety. This colorful array is then smothered in a thick layer of melted, gooey mozzarella cheese, which binds all the vegetables together and adds a creamy, salty element. As the pizza bakes, the vegetables soften just slightly, releasing their natural juices which mingle with the sauce and cheese, while still retaining a pleasant texture. The result is a pizza that is incredibly flavorful and satisfying, with each bite offering a different combination of tastes and textures—sweet, savory, tangy, and earthy. It's a hearty, healthy-ish, and delicious option that is a favorite among vegetarians and a great way to get your daily dose of vegetables in the most enjoyable way possible.",
       "available": true,
-      "preparation_time": "15 minutes"
+      "preparation_time": "15 minutes",
+       "category": "Pizza"
     },
     {
       "photo": "https://i.ibb.co.com/PzbZ7CMH/Chocolate-Lava-Cake.jpg",
@@ -334,7 +361,8 @@
       "price": 300,
       "description": "Sweet House's Chocolate Lava Cake is the epitome of decadent dessert perfection, a warm, rich, and deeply chocolatey experience that is pure indulgence. Each cake is individually baked in a ramekin to order, ensuring it arrives at your table fresh from the oven. The exterior is a delicate, moist, and fluffy chocolate cake that gives way at the slightest touch of a spoon. As you break through the surface, a river of warm, liquid, and intensely dark chocolate ganache flows out, creating a stunning and delicious 'lava' effect. The secret lies in the precise baking time—just enough to set the outer cake but leave the center molten. We use high-quality dark chocolate with a high cocoa content, which gives the cake and its liquid center a deep, complex, and slightly bitter chocolate flavor that is not overly sweet. It is traditionally served dusted with a light snowfall of powdered sugar and accompanied by a scoop of pure, creamy vanilla ice cream. The contrast between the warm, rich cake and the cold, smooth ice cream is a classic and irresistible combination, making this dessert a legendary finale to any meal.",
       "available": true,
-      "preparation_time": "10 minutes"
+      "preparation_time": "10 minutes",
+      "category": "Dessert"
     },
     {
       "photo": "https://i.ibb.co.com/fd5wnGtq/Mango-Cheesecake.jpg",
@@ -346,7 +374,8 @@
       "price": 320,
       "description": "Dessert Point's Mango Cheesecake is a tropical twist on a classic dessert, combining the creamy richness of cheesecake with the bright, sunny flavor of ripe mangoes. Our version features a buttery, crumbly base made from crushed digestive biscuits, which provides a delightful textural contrast. The filling is luxuriously smooth and creamy, made from a blend of full-fat cream cheese, fresh cream, and a hint of vanilla, whipped to a silken consistency. We then swirl in a generous amount of homemade mango puree, made from the sweetest, most aromatic mangoes, which infuses the entire cheesecake with its vibrant color and fruity flavor. We offer two styles: a no-bake version that is light and refreshing, set in the refrigerator, or a baked version that has a denser, more traditional texture. The cheesecake is chilled until perfectly set, then topped with a glossy mango glaze and fresh mango slices or chunks for an extra burst of freshness. Each slice is a perfect balance of rich, tangy cream cheese and the sweet, tropical essence of mango, making it a hugely popular dessert, especially during the summer season.",
       "available": true,
-      "preparation_time": "12 minutes"
+      "preparation_time": "12 minutes",
+      "category": "Dessert"
     },
     {
       "photo": "https://i.ibb.co.com/nMp0myPz/Ice-Cream-Sundae.jpg",
@@ -358,7 +387,8 @@
       "price": 200,
       "description": "Cool Treat's Ice Cream Sundae is a customizable celebration of joy, a classic dessert that brings out the child in everyone. We start with a foundation of two generous scoops of our premium, creamy vanilla ice cream, which serves as the perfect neutral canvas. The sundae is then transformed into a masterpiece with a choice of decadent toppings. A generous pouring of rich, warm chocolate fudge sauce is a must, creating pools of gooey goodness that slightly harden upon contact with the cold ice cream. For crunch, we sprinkle on roasted, chopped peanuts or almonds. A dollop of whipped cream adds a cloud-like lightness, and a single, bright red maraschino cherry placed proudly on top provides the classic finishing touch. Customers can further customize their sundae with other sauces like caramel or strawberry, or add-ins like colorful sprinkles or M&M's. Served in a tall, classic sundae glass, each spoonful is a delightful mix of cold and creamy, warm and gooey, and crisp and crunchy. It's a simple, fun, and utterly satisfying treat that is perfect for cooling down on a hot day or for ending a meal on a sweet, nostalgic note.",
       "available": true,
-      "preparation_time": "5 minutes"
+      "preparation_time": "5 minutes",
+      "category": "Dessert"
     }
   ]
 }

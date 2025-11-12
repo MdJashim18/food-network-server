@@ -27,9 +27,10 @@ async function run() {
         const foodCollections = db.collection("foods");
         const reviewCollections = db.collection("review")
         const usersCollection = db.collection("users")
+        const favoriteCollections = db.collection("favorites")
 
 
-         app.post('/users', async (req, res) => {
+        app.post('/users', async (req, res) => {
             const newUser = req.body
 
             const email = req.body.email
@@ -52,7 +53,7 @@ async function run() {
             res.send('🍽️ Local Food Lovers Network is running!');
         });
 
-        
+
         app.post('/foods', async (req, res) => {
             const newFood = req.body;
             const result = await foodCollections.insertOne(newFood);
@@ -83,24 +84,24 @@ async function run() {
             res.send(result)
         });
 
-        app.get('/foods',async(req,res)=>{
+        app.get('/foods', async (req, res) => {
             const cursor = foodCollections.find()
             const result = await cursor.toArray()
             res.send(result)
         });
 
-        app.get('/foods/:id',async(req,res)=>{
+        app.get('/foods/:id', async (req, res) => {
             const id = req.params.id
-            const query = {_id:new ObjectId(id)}
+            const query = { _id: new ObjectId(id) }
             const result = await foodCollections.findOne(query)
             res.send(result)
         })
 
 
-        app.post('/review',async(req,res)=>{
+        app.post('/review', async (req, res) => {
             const newReview = req.body
             const result = await reviewCollections.insertOne(newReview)
-            res.send(result) 
+            res.send(result)
         })
         app.delete('/review/:id', async (req, res) => {
             const id = req.params.id
@@ -115,7 +116,6 @@ async function run() {
 
             const update = {
                 $set: {
-                    star_rating: updateFood.star_rating,
                     review_text: updateFood.review_text,
                 }
             }
@@ -123,15 +123,56 @@ async function run() {
             const result = await reviewCollections.updateOne(query, update, options)
             res.send(result)
         });
-        app.get('/review',async(req,res)=>{
+        app.get('/review', async (req, res) => {
             const cursor = reviewCollections.find()
             const result = await cursor.toArray()
             res.send(result)
         });
-        app.get('/review/:id',async(req,res)=>{
+        app.get('/reviews', async (req, res) => {
+            const email = req.query.email;
+            const query = email ? { email: email } : {};
+            const result = await reviewCollections.find(query).toArray();
+            res.send(result);
+        });
+        app.get('/review/:id', async (req, res) => {
             const id = req.params.id
-            const query = {_id:new ObjectId(id)}
+            const query = { _id: new ObjectId(id) }
             const result = await reviewCollections.findOne(query)
+            res.send(result)
+        })
+
+
+
+
+        app.post('/favorites', async (req, res) => {
+            const newFavorite = req.body
+            const result = await favoriteCollections.insertOne(newFavorite)
+            res.send(result)
+        })
+        app.delete('/favorites/:id', async (req, res) => {
+            const id = req.params.id
+            const query = { _id: new ObjectId(id) }
+            const result = await favoriteCollections.deleteOne(query)
+            res.send(result)
+        });
+        app.get('/favorites', async (req, res) => {
+            const cursor = favoriteCollections.find()
+            const result = await cursor.toArray()
+            res.send(result)
+        });
+        app.get('/favorites/email', async (req, res) => {
+            const email = req.query.email;
+            const query = email ? { email: email } : {};
+            const result = await favoriteCollections.find(query).toArray();
+            res.send(result);
+        });
+
+
+
+        app.get('/favorites/:id', async (req, res) => {
+            const id = req.params.id
+            const query = { _id: new ObjectId(id) }
+            const result = await favoriteCollections.findOne(query)
             res.send(result)
         })
 
@@ -140,7 +181,7 @@ async function run() {
 
 
 
-        
+
         app.listen(port, () => {
             console.log(`Server running on port ${port}`);
         });
