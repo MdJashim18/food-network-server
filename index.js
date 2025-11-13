@@ -1,15 +1,16 @@
 const express = require('express');
 const cors = require('cors');
 const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
-
+require('dotenv').config()
 const app = express();
 const port = process.env.PORT || 3000;
+
 
 app.use(cors());
 app.use(express.json());
 
 
-const uri = "mongodb+srv://Food-Network:m2EPYv3cTBhSQsZu@mongo-simple-crud.tzwys72.mongodb.net/?retryWrites=true&w=majority";
+const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@mongo-simple-crud.tzwys72.mongodb.net/?retryWrites=true&w=majority`;
 
 const client = new MongoClient(uri, {
     serverApi: {
@@ -97,7 +98,7 @@ async function run() {
             res.send(result)
         })
 
-        
+
 
 
         app.post('/review', async (req, res) => {
