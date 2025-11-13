@@ -6,7 +6,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 
-app.use(cors());
+app.use(cors({ origin: '*' }));
 app.use(express.json());
 
 
@@ -47,11 +47,10 @@ async function run() {
 
         })
 
-        console.log(" Connected to MongoDB successfully!");
 
         
         app.get('/', (req, res) => {
-            res.send('🍽️ Local Food Lovers Network is running!');
+            res.send('Local Food Lovers Network is running!');
         });
 
 
