@@ -97,6 +97,8 @@ async function run() {
             res.send(result)
         })
 
+        
+
 
         app.post('/review', async (req, res) => {
             const newReview = req.body
@@ -181,19 +183,12 @@ async function run() {
             const result = await favoriteCollections.find(query).toArray();
             res.send(result);
         });
-
-
-
         app.get('/favorites/:id', async (req, res) => {
             const id = req.params.id
             const query = { _id: new ObjectId(id) }
             const result = await favoriteCollections.findOne(query)
             res.send(result)
         })
-
-
-
-
 
 
 
